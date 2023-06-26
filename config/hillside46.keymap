@@ -49,7 +49,7 @@
 &kp  TAB       &kp  Q        &kp  W        &kp  F        &kp  P        &kp  G                                                                         &kp  J        &kp  L        &kp  U        &kp  Y        &kp  SEMI     &kp  CAPS
 &kp  BSPS      &kp  A        &kp  R        &kp  S        &kp  T        &kp  D                                                                         &kp  H        &kp  N        &kp  E        &kp  I        &kp  O        &kp  SQT
 &kp  LSHIFT    &kp  Z        &kp  X        &kp  C        &kp  V        &kp  B      &kp   ESC                                          &caps_word      &kp  K        &kp  M        &kp  COMMA    &kp  DOT      &kp  SLASH    &kp  BSLH
-                                                         &kp  LCTL     &kp  LGUI   &mt  LCTL ENTER    &mo  FCN_L        &mo  SYM_L    &lt  SYM SPACE  &kp  LALT     &kp  RGUI
+                                                         &kp  LCTL     &kp  LGUI   &mt  LCTL ENTER    &to  FCN_L        &to  SYM_L    &lt  SYM SPACE  &kp  LALT     &kp  RGUI
                         >;
 			
                         sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -67,7 +67,7 @@
 &kp  GRAVE    &kp  Q        &kp  W        &kp  E        &kp  R        &kp  T                                                                         &kp  Y        &kp  U        &kp  I        &kp  O        &kp  P        &kp  BSPC
 &kp  TAB      &kp  A        &kp  S        &kp  D        &kp  F        &kp  G                                                                         &kp  H        &kp  J        &kp  K        &kp  L        &kp  SEMI     &kp  ENTER  
 &kp  LCTRL    &kp  Z        &kp  X        &kp  C        &kp  V        &kp  B        &kp  ESC                                         &caps_word      &kp  N        &kp  M        &kp  COMMA    &kp  DOT      &kp  SLASH    &kp  SQT
-                                                        &kp  LCTL     &kp  LGUI     &mt  LCTL ENTER    &mo  FCN_L      &mo  SYM_L    &lt  SYM SPACE  &kp  LALT     &kp  RGUI
+                                                        &kp  LCTL     &kp  LGUI     &mt  LCTL ENTER    &to  FCN_L      &to  SYM_L    &lt  SYM SPACE  &kp  LALT     &kp  RGUI
                         >;
 			
                         sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -85,7 +85,7 @@
 &kp  GRAVE    &kp  SQT      &kp  COMMA    &kp  DOT      &kp  P        &kp  Y                                                                         &kp  F        &kp  G        &kp  C        &kp  R        &kp  L        &kp  BSPC
 &kp  TAB      &kp  A        &kp  O        &kp  E        &kp  U        &kp  I                                                                         &kp  D        &kp  H        &kp  T        &kp  N        &kp  S        &kp  ENTER
 &kp  LCTRL    &kp  SEMI     &kp  Q        &kp  J        &kp  K        &kp  X        &kp  ESC                                           &caps_word    &kp  B        &kp  M        &kp  W        &kp  V        &kp  Z        &kp  SLASH
-                                                        &kp  LGUI     &kp  LALT     &sk  LSHIFT    &mo  NAV_L            &mo  SYM_L    &kp  SPACE    &kp  LALT     &kp  RGUI
+                                                        &kp  LGUI     &kp  LALT     &sk  LSHIFT    &to  NAV_L            &to  SYM_L    &kp  SPACE    &kp  LALT     &kp  RGUI
                         >;
 			
                         sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -103,7 +103,7 @@
 &kp  N1       &kp  N2        &kp  N3        &kp  N4        &kp  N5        &kp  N6                                                                        &kp  N7       &kp  N8       &kp  N9       &kp  N0       &kp  MINUS    &kp EQUAL
 &kp bsps      &kp  HOME      &kp  END       &kp  DEL       &kp  ESC       &kp  INS                                                                       &kp  HOME     &kp  RSHFT    &kp  RCTRL    &kp  LALT     &kp  RGUI     &kp END
 &kp LSHIFT    &kp PSCRN      &none          &kp  PG_UP     &kp  PG_DN     &kp  LEFT     &kp ESC                                            &kp K_APP     &kp  C_MUTE   &kp  C_VOL_DN &kp  C_VOL_UP &kp  C_PP     &none         &kp RCTRL
-                                                           &trans         &trans        &trans       &mo  ADJ_L               &trans       &trans        &trans        &trans
+                                                           &trans         &trans        &trans       &to  0               &to  FCN       &trans        &trans        &trans
                         >;
 			
                         sensor-bindings = <&inc_dec_kp PG_UP PG_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -121,7 +121,7 @@
 &kp  f1       &kp  f2       &kp  f3       &kp  f4       &kp  f5       &kp  f6                                                                        &kp   f7          &kp  f8        &kp   f9      &kp   f10     &kp  f11      &kp f12
 &kp  Cut      &kp  LGUI     &kp  LALT     &kp  LCTRL    &kp  LSHFT    &kp  Paste                                                                     &kp   C_VOL_UP    &kp  C_PLAY    &kp   C_PREV  &kp   C_NEXT  &kp  C_MUTE   &none
 &trans        &kp  F1       &kp  F2       &kp  F3       &kp  F4       &kp  F5       &kp Undo                                           &kp  Redo     &kp   C_VOL_DN    &kp  C_STOP    &kp   COMMA   &kp   DOT     &kp  SLASH    &kp BSLH
-                                                        &trans        &trans        &trans        &trans                 &mo ADJ_L     &trans        &trans        &trans 
+                                                        &trans        &trans        &trans        &to  0                 &to  ADJ_L     &trans        &trans        &trans 
                         >;
 			
                         sensor-bindings = <&inc_dec_kp PG_UP PG_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -139,7 +139,7 @@
 &none         &to COLEMK_L &to  DVORAK_L &to  QWERTY_L &none         &none                                                                             &none             &kp   F11          &kp   F12  &kp PRINTSCREEN   &ext_power EP_OFF  &ext_power EP_ON
 &sys_reset    &bt  BT_SEL 0 &bt  BT_SEL 1 &bt  BT_SEL 2 &bt  BT_SEL 3 &bt  BT_SEL 4                                                                     &none             &none              &none            &none          &none           &sys_reset
 &none         &kp  LGUI     &kp  LALT     &kp  LCTRL    &kp LSHIFT    &none         &bt BT_CLR                                         &none            &none             &none              &out  OUT_USB    &out  OUT_BLE  &none           &bootloader
-                                                        &trans        &trans        &trans        &trans                 &trans        &trans           &trans            &trans 
+                                                        &trans        &trans        &trans        &to  0                 &to  0        &trans           &trans            &trans 
                         >;
 			
                         sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
