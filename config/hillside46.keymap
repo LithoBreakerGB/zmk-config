@@ -65,18 +65,18 @@
                 };
 		
                 colemak_layer {
-/* COLEMAK-DH
+/* COLEMAK
  * -------------------------------------------------------------------------------------------------------------------------------------
- * | `     |   Q   |   W   |   F   |   P   |   B   |-----------------------------------|   J   |   L   |   U   |   Y   |   ;   | BKSPC |
- * | TAB   |   A   |   R   |   S   |   T   |   G   |-----------------------------------|   M   |   N   |   E   |   I   |   O   | ENTER |
- * | CTRL  |   Z   |   X   |   C   |   D   |   V   |  ESC  |-------------------| CAPS  |   K   |   H   |   ,   |   .   |   /   |   '   |
- *                                 |  GUI  |  ALT  |SK SHFT|  Nav  |---|  Sym  | SPACE |  ALT  |  GUI  |
+ * | TAB    |   Q   |   W   |   F   |   P   |   G   |-----------------------------------|   J   |   L   |   U   |   Y   |   ;   |  CAPS |
+ * | BSPC   |   A   |   R   |   S   |   T   |   D   |-----------------------------------|   H   |   N   |   E   |   I   |   O   |   '   |
+ * | SHIFT  |   Z   |   X   |   C   |   V   |   B   |  ESC  |-------------------| CAPS  |   K   |   M   |   ,   |   .   |   /   |   \   |
+ *                                 |  GUI  |  ALT  |SK SHFT|  &mo FCN  |---|  &mo SYM  | &lt SYM SPACE |  ALT  |  GUI  |
  */
                         bindings = <
-&kp  GRAVE    &kp  Q        &kp  W        &kp  F        &kp  P        &kp  B                                                                         &kp  J        &kp  L        &kp  U        &kp  Y        &kp  SEMI     &kp  BSPC
-&kp  TAB      &kp  A        &kp  R        &kp  S        &kp  T        &kp  G                                                                         &kp  M        &kp  N        &kp  E        &kp  I        &kp  O        &kp  ENTER
-&kp  LCTRL    &kp  Z        &kp  X        &kp  C        &kp  D        &kp  V        &kp   ESC                                          &caps_word    &kp  K        &kp  H        &kp  COMMA    &kp  DOT      &kp  SLASH    &kp  SQT
-                                                        &kp  LGUI     &kp  LALT     &sk  LSHIFT    &mo  NAV_L            &mo  SYM_L    &kp  SPACE    &kp  LALT     &kp  RGUI
+&kp  TAB      &kp  Q        &kp  W        &kp  F        &kp  P        &kp  G                                                                         &kp  J        &kp  L        &kp  U        &kp  Y        &kp  SEMI     &kp  CAPS
+&kp  BSPS     &kp  A        &kp  R        &kp  S        &kp  T        &kp  D                                                                         &kp  H        &kp  N        &kp  E        &kp  I        &kp  O        &kp  SQT
+&kp  LSHIFT   &kp  Z        &kp  X        &kp  C        &kp  V        &kp  B      &kp   ESC                                          &caps_word      &kp  K        &kp  M        &kp  COMMA    &kp  DOT      &kp  SLASH    &kp  BSLH
+                                                         &kp  LCTL     &kp  LGUI   &mt  LCTL ENTER    &to  FCN_L        &to  SYM_L    &lt  SYM SPACE  &kp  LALT     &kp  RGUI
                         >;
 			
                         sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
