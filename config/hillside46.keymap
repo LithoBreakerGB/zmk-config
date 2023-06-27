@@ -105,7 +105,7 @@
 &kp  N1       &kp  N2        &kp  N3        &kp  N4        &kp  N5        &kp  N6                                                                        &kp  N7       &kp  N8       &kp  N9       &kp  N0       &kp  MINUS    &kp EQUAL
 &kp  BSPC     &kp  HOME      &kp  END       &kp  DEL       &kp  ESC       &kp  INS                                                                       &kp  UP       &kp  GRAVE    &kp  LBKT     &kp  RBRC     &kp  SEMI     &kp SQT
 &kp  LSHIFT   &kp  PSCRN     &none          &kp  PG_DN     &kp  PG_UP     &kp  LEFT     &kp ESC                                            &kp  GRAVE    &kp  DOWN     &kp  RIGHT    &kp  COMMA    &kp  DOT      &kp  SLASH    &kp BSLH
-                                                           &trans         &trans        &trans       &to  0               &to  FCN_L       &trans        &trans        &trans
+                                                           &trans         &trans        &trans       &to  0               &to  0       &trans        &trans        &trans
                         >;
 			
                         sensor-bindings = <&inc_dec_kp PG_UP PG_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -123,7 +123,7 @@
 &kp  F1       &kp  F2       &kp  F3       &kp  F4       &kp  F5       &kp  F6                                                                        &kp   F7          &kp  F8        &kp   F9      &kp   F10     &kp  F11      &kp F12
 &none         &none         &none         &none         &none         &none                                                                          &kp   C_VOL_UP    &kp  C_PLAY    &kp   C_PREV  &kp   C_NEXT  &kp  C_MUTE   &none
 &none         &none         &none         &none         &none         &none         &kp Undo                                           &kp  Redo     &kp   C_VOL_DN    &kp  C_STOP    &none         &none         &none         &none
-                                                        &trans        &trans        &trans        &to  0                 &to  ADJ_L     &trans        &trans        &trans 
+                                                        &trans        &trans        &trans        &to  0                 &to  0     &trans        &trans        &trans 
                         >;
 			
                         sensor-bindings = <&inc_dec_kp PG_UP PG_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
