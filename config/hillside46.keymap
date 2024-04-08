@@ -48,9 +48,9 @@
  *                                 |  GUI  |  ALT  |SK SHFT|  &mo FCN  |---|  &mo SYM  | &lt SYM SPACE |  ALT  |  GUI  |
  */
                         bindings = <
-&kp  TAB      &kp  Q        &kp  W        &kp  F        &kp  P        &kp  B                                                                         &kp  J        &kp  L        &kp  U        &kp  Y        &kp  SEMI     &kp  CAPS
-&kp  BSPC     &kp  A        &kp  R        &kp  S        &kp  T        &kp  G                                                                         &kp  M        &kp  N        &kp  E        &kp  I        &kp  O        &kp  SQT
-&kp  LSHIFT   &kp  Z        &kp  X        &kp  C        &kp  D        &kp  V        &kp  ESC                                           &kp  GRAVE    &kp  K        &kp  H        &kp  COMMA    &kp  DOT      &kp  SLASH    &kp  BSLH
+&kp  TAB      &kp  Q        &kp  W        &kp  F        &kp  P        &kp  G                                                                         &kp  J        &kp  L        &kp  U        &kp  Y        &kp  SEMI     &kp  CAPS
+&kp  BSPC     &kp  A        &kp  R        &kp  S        &kp  T        &kp  D                                                                         &kp  H        &kp  N        &kp  E        &kp  I        &kp  O        &kp  SQT
+&kp  LSHIFT   &kp  Z        &kp  X        &kp  C        &kp  V        &kp  B        &kp  ESC                                           &kp  GRAVE    &kp  K        &kp  M        &kp  COMMA    &kp  DOT      &kp  SLASH    &kp  BSLH
 							&kp  LGUI     &mt  LCTL ENTER  &to  FCN_L    &none                &none        &to  SYM_L    &lt  SYM_L SPACE  &kp  LALT
 
                         >;
