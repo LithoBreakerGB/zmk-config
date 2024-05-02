@@ -55,7 +55,7 @@
 
                         >;
 			
-                        sensor-bindings = <BINDING C_VOL_UP C_VOL_DN BINDING PG_UP PG_DN>;
+                        sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN>;
                 };
 		
                 qwerty_layer {
@@ -73,7 +73,7 @@
 							&kp  LGUI     &mt  LCTRL ENTER  &to  FCN_L    &none                &none        &to  SYM_L    &lt  SYM_L SPACE  &kp  LALT
                         >;
 			
-                        sensor-bindings = <BINDING C_VOL_UP C_VOL_DN BINDING PG_UP PG_DN>;
+                        sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN>;
                 };
 		
                 dvorak_layer {
@@ -91,7 +91,7 @@
 							&kp  LGUI     &mt  LCTRL ENTER  &to  FCN_L    &none                &none        &to  SYM_L    &lt  SYM_L SPACE  &kp  LALT
                         >;
 			
-                        sensor-bindings = <BINDING C_VOL_UP C_VOL_DN BINDING PG_UP PG_DN>;
+                        sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN>;
                 };
 		
                 sym_layer {
@@ -109,7 +109,7 @@
 							&kp  LGUI     &mt  LCTRL ENTER  &to  COLEMK_L    &none                &none        &to  COLEMK_L    &lt  SYM_L SPACE  &kp  LALT
                         >;
 			
-                        sensor-bindings = <BINDING C_VOL_UP C_VOL_DN BINDING PG_UP PG_DN>;
+                        sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN>;
                 };
 
                 fcn_layer {
@@ -127,7 +127,7 @@
 							&kp  LGUI     &mt  LCTRL ENTER  &to  COLEMK_L   &none                &none        &to  COLEMK_L    &lt  SYM_L SPACE  &kp  LALT
                         >;
 			
-                        sensor-bindings = <BINDING C_VOL_UP C_VOL_DN BINDING PG_UP PG_DN>;
+                        sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN>;
                 };
 		
                 adj_layer {
@@ -145,7 +145,7 @@
 							&kp  LGUI     &mt  LCTRL ENTER  &to  COLEMK_L    &none                &none        &to  COLEMK_L    &lt  SYM_L SPACE  &kp  LALT
                         >;
 			
-                        sensor-bindings = <BINDING C_VOL_UP C_VOL_DN BINDING PG_UP PG_DN>;
+                        sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN>;
                 };
         };
 };
