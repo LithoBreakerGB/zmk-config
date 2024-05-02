@@ -55,7 +55,7 @@
 
                         >;
 			
-                        sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp C_AC_SCROLL_UP C_AC_SCROLL_DOWN>;
+                        sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
                 };
 		
                 qwerty_layer {
@@ -73,7 +73,7 @@
 							&kp  LGUI     &mt  LCTRL ENTER  &to  FCN_L    &none                &none        &to  SYM_L    &lt  SYM_L SPACE  &kp  LALT
                         >;
 			
-                        sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp C_AC_SCROLL_UP C_AC_SCROLL_DOWN>;
+                        sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
                 };
 		
                 dvorak_layer {
@@ -91,7 +91,7 @@
 							&kp  LGUI     &mt  LCTRL ENTER  &to  FCN_L    &none                &none        &to  SYM_L    &lt  SYM_L SPACE  &kp  LALT
                         >;
 			
-                        sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp C_AC_SCROLL_UP C_AC_SCROLL_DOWN>;
+                        sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
                 };
 		
                 sym_layer {
@@ -109,7 +109,7 @@
 							&kp  LGUI     &mt  LCTRL ENTER  &to  COLEMK_L    &none                &none        &to  COLEMK_L    &lt  SYM_L SPACE  &kp  LALT
                         >;
 			
-                        sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp C_AC_SCROLL_UP C_AC_SCROLL_DOWN>;
+                        sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
                 };
 
                 fcn_layer {
@@ -127,7 +127,7 @@
 							&kp  LGUI     &mt  LCTRL ENTER  &to  COLEMK_L   &none                &none        &to  COLEMK_L    &lt  SYM_L SPACE  &kp  LALT
                         >;
 			
-                        sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp C_AC_SCROLL_UP C_AC_SCROLL_DOWN>;
+                        sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
                 };
 		
                 adj_layer {
@@ -145,7 +145,7 @@
 							&kp  LGUI     &mt  LCTRL ENTER  &to  COLEMK_L    &none                &none        &to  COLEMK_L    &lt  SYM_L SPACE  &kp  LALT
                         >;
 			
-                        sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp C_AC_SCROLL_UP C_AC_SCROLL_DOWN>;
+                        sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
                 };
         };
 };
