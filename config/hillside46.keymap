@@ -64,7 +64,7 @@
                         bindings = <
 &kp  TAB      &kp  Q        &kp  W        &kp  F        &kp  P        &kp  B                                                                         &kp  J        &kp  L        &kp  U        &kp  Y        &kp  SEMI     &kp  CAPS
 &kp  BSPC     &kp  A        &kp  R        &kp  S        &kp  T        &kp  G                                                                         &kp  M        &kp  N        &kp  E        &kp  I        &kp  O        &kp  SQT
-&kp  LSHIFT   &kp  Z        &kp  X        &kp  C        &kp  D        &kp  V        &kp  ESC                                           &kp  GRAVE    &kp  K        &kp  H        &kp  COMMA    &kp  DOT      &kp  SLASH    &kp  BSLH
+&kp  LSHIFT   &kp  Z        &kp  X        &kp  C        &kp  D        &kp  V        &none                                           &none    &kp  K        &kp  H        &kp  COMMA    &kp  DOT      &kp  SLASH    &kp  BSLH
 							&kp  LGUI     &mt  LCTRL ENTER  &to  FCN_L    &none                &obsidian        &to  SYM_L    &lt  SYM_L SPACE  &kp  LALT
 
                         >;
@@ -83,7 +83,7 @@
                         bindings = <
 &kp  GRAVE    &kp  Q        &kp  W        &kp  E        &kp  R        &kp  T                                                                         &kp  Y        &kp  U        &kp  I        &kp  O        &kp  P        &kp  BSPC
 &kp  TAB      &kp  A        &kp  S        &kp  D        &kp  F        &kp  G                                                                         &kp  H        &kp  J        &kp  K        &kp  L        &kp  SEMI     &kp  ENTER  
-&kp  LCTRL    &kp  Z        &kp  X        &kp  C        &kp  V        &kp  B        &kp  ESC                                           &kp  GRAVE    &kp  N        &kp  M        &kp  COMMA    &kp  DOT      &kp  SLASH    &kp  SQT
+&kp  LCTRL    &kp  Z        &kp  X        &kp  C        &kp  V        &kp  B        &none                                           &none    &kp  N        &kp  M        &kp  COMMA    &kp  DOT      &kp  SLASH    &kp  SQT
 							&kp  LGUI     &mt  LCTRL ENTER  &to  FCN_L    &none                &obsidian        &to  SYM_L    &lt  SYM_L SPACE  &kp  LALT
                         >;
 			
@@ -101,7 +101,7 @@
                         bindings = <
 &kp  GRAVE    &kp  SQT      &kp  COMMA    &kp  DOT      &kp  P        &kp  Y                                                                         &kp  F        &kp  G        &kp  C        &kp  R        &kp  L        &kp  BSPC
 &kp  TAB      &kp  A        &kp  O        &kp  E        &kp  U        &kp  I                                                                         &kp  D        &kp  H        &kp  T        &kp  N        &kp  S        &kp  ENTER
-&kp  LCTRL    &kp  SEMI     &kp  Q        &kp  J        &kp  K        &kp  X        &kp  ESC                                           &kp  GRAVE    &kp  B        &kp  M        &kp  W        &kp  V        &kp  Z        &kp  SLASH
+&kp  LCTRL    &kp  SEMI     &kp  Q        &kp  J        &kp  K        &kp  X        &none                                           &none    &kp  B        &kp  M        &kp  W        &kp  V        &kp  Z        &kp  SLASH
 							&kp  LGUI     &mt  LCTRL ENTER  &to  FCN_L    &none                &obsidian        &to  SYM_L    &lt  SYM_L SPACE  &kp  LALT
                         >;
 			
@@ -119,7 +119,7 @@
                         bindings = <
 &kp  N1       &kp  N2        &kp  N3        &kp  N4        &kp  N5        &kp  N6                                                                        &kp  N7       &kp  N8       &kp  N9       &kp  N0       &kp  MINUS    &kp EQUAL
 &kp  BSPC     &kp  HOME      &kp  END       &kp  DEL       &kp  ESC       &kp  INS                                                                       &kp  UP       &kp  GRAVE    &kp  LBKT     &kp  RBKT     &kp  SEMI     &kp SQT
-&kp  LSHIFT   &kp  PSCRN     &none          &kp  PG_DN     &kp  PG_UP     &kp  LEFT     &kp ESC                                            &kp  GRAVE    &kp  DOWN     &kp  RIGHT    &kp  COMMA    &kp  DOT      &kp  SLASH    &kp BSLH
+&kp  LSHIFT   &kp  PSCRN     &none          &kp  PG_DN     &kp  PG_UP     &kp  LEFT     &none                                            &none    &kp  DOWN     &kp  RIGHT    &kp  COMMA    &kp  DOT      &kp  SLASH    &kp BSLH
 							&kp  LGUI     &mt  LCTRL ENTER  &to  COLEMK_L    &none                &obsidian        &to  COLEMK_L    &lt  SYM_L SPACE  &kp  LALT
                         >;
 			
@@ -137,7 +137,7 @@
                         bindings = <
 &kp  F1       &kp  F2       &kp  F3       &kp  F4       &kp  F5       &kp  F6                                                                        &kp   F7          &kp  F8        &kp   F9      &kp   F10     &kp  F11      &kp F12
 &none         &none         &none         &none         &none         &none                                                                          &kp   C_VOL_UP    &kp  C_PLAY    &kp   C_PREV  &kp   C_NEXT  &kp  C_MUTE   &none
-&none         &none         &none         &none         &none         &none         &kp Undo                                           &kp  Redo     &kp   C_VOL_DN    &kp  C_STOP    &none         &none         &none         &none
+&none         &none         &none         &none         &none         &none         &none                                           &none     &kp   C_VOL_DN    &kp  C_STOP    &none         &none         &none         &none
 							&kp  LGUI     &mt  LCTRL ENTER  &to  COLEMK_L   &none                &obsidian        &to  COLEMK_L    &lt  SYM_L SPACE  &kp  LALT
                         >;
 			
@@ -155,8 +155,8 @@
                         bindings = <
 &none         &to  QWERTY_L &to  DVORAK_L &to  COLEMK_L &none         &none                                                                             &none             &kp   F11          &kp   F12  &kp PRINTSCREEN   &ext_power EP_OFF  &ext_power EP_ON
 &sys_reset    &bt  BT_SEL 0 &bt  BT_SEL 1 &bt  BT_SEL 2 &bt  BT_SEL 3 &bt  BT_SEL 4                                                                     &none             &none              &none            &none          &none           &sys_reset
-&none         &kp  LGUI     &kp  LALT     &kp  LCTRL    &kp LSHIFT    &none         &bt BT_CLR                                         &none            &none             &none              &out  OUT_USB    &out  OUT_BLE  &none           &bootloader
-							&kp  LGUI     &mt  LCTRL ENTER  &to  COLEMK_L    &none                &obsidian        &to  COLEMK_L    &lt  SYM_L SPACE  &kp  LALT
+&none         &kp  LGUI     &kp  LALT     &kp  LCTRL    &kp LSHIFT    &bt BT_CLR        &none                                           &none           &none             &none              &out  OUT_USB    &out  OUT_BLE  &none           &bootloader
+							&kp  LGUI     &mt  LCTRL ENTER  &to  COLEMK_L    &none           &obsidian      &to  COLEMK_L   &lt  SYM_L SPACE  &kp  LALT
                         >;
 			
                         sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp UP DOWN>;
